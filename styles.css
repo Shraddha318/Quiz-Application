@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+}
+
+/* Main Container */
+.container {
+    background-color: #1e2a38;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Start Button Styling */
+#start-btn {
+    background-color: #46a278;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#start-btn:hover {
+    background-color: #5fbd91;
+    transform: scale(1.05);
+}
+
+/* Question Styling */
+#question-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Choices Container */
+#choices-list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#choices-list li {
+    background-color: #41504c;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#choices-list li:hover {
+    background-color: #46a278;
+}
+
+#choices-list li.selected {
+    background-color: #46a278;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+/* General Button Styling */
+button {
+    background-color: #41504c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #46a278;
+    transform: scale(1.05);
+}
+
+/* Result Container */
+#result-container {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
